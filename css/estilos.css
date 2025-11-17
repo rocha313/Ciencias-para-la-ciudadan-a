@@ -229,6 +229,143 @@ main{
         0 0.3rem var #00ff00;
 }
 
+@media (max-width: 375px){
+
+    .textos{
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 4.4rem;
+        text-align: center;        
+        margin: auto;
+    }
+
+    .subtitulo{
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 3.2rem;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 1rem;
+}
+
+
+    .textos2{
+    font-size: 3rem;
+    margin-left: auto;
+    padding-top: auto;
+    }
+    
+    .parrafo{
+        justify-content: space-around;
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 27rem;
+    }
+
+    
+    .parrafo3{
+    justify-content: space-around;
+    text-align: center;
+    width: 27rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    padding-top: 2rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+    }
+    
+    header div{
+        width: 100%;
+        height: 21.2rem;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        justify-content: space-around;
+        background-color: black;
+        border-top: 0.2rem solid #05dc05;
+        border-bottom:0.3rem solid #05dc05;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    nav a{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 0rem;
+    }
+    
+    .acerca{
+        width: 100%;
+        height: 120rem;
+        background-size: cover;
+        background-position: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textos2{
+        font-size: 3rem;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia{
+        width: 100%;
+        height: 160rem;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .caja{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: #ffffff;
+    border: 0.2rem solid rgb(0, 255, 76);
+    }
+
+    .plista2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-shadow:
+        -0.3rem 0 var #00ff00,
+        0.3rem 0 var #00ff00,
+        0 -0.3rem var #00ff00,
+        0 0.3rem var #00ff00;
+    }
+}
+
+
 @media (max-width: 320px){
 
     .textos{
@@ -363,6 +500,4 @@ main{
         0 -0.3rem var #00ff00,
         0 0.3rem var #00ff00;
     }
-
-    
 }
