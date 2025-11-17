@@ -1,0 +1,368 @@
+:root{
+    --rojote:#61060a;
+    --blanco : #ffffff;
+    --gris : #242d2b;
+    --negro:#000;
+    --verde :#0e7a0d;
+    --play:#193285;
+    --rojo:#e60012;
+    --steam:#007ead;
+    --verde: #295529;
+}
+
+
+*{
+    padding: 0rem;
+    margin: 0rem;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    color: var(--blanco);
+}
+.textos{
+    font-family: sans-serif;
+    font-size: 12rem;
+    text-align: center;
+    justify-content: start;
+    align-items: flex-end;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+
+.subtitulo{
+    font-family: sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    justify-content: start;
+    align-items: flex-end;
+    text-shadow:
+        -0.4rem 0 var(--negro),
+        0.4rem 0 var(--negro),
+        0 -0.4rem var(--negro),
+        0 0.4rem var(--negro);
+    padding-top: 3rem;
+}
+
+.textos2{
+    font-size: 4rem;
+    letter-spacing: 2px;
+    margin-left: auto;
+    padding-top: 4rem;
+}
+
+.block{
+    display: flex;
+    justify-content: space-around;
+}
+
+.acerca{
+    width: 100%;
+    height: 50rem;
+    background-image: url(../img/personas-que-usan-computadoras-oficina_236854-36743.avif);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--negro); 
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
+header div{
+    width: 100%;
+    height: 30rem;
+    background-image: url(../img/beautiful-blurred-background-of-a-light-modern-office-interior-with-and-beautiful-lighting-photo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header div > h1{
+    position: absolute;
+    bottom: 0rem;
+    left: 2rem;
+    font-size: 15rem;
+}
+
+h2{
+    font-family: sans-serif;
+    font-size: 10rem;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border-top: 0.2rem solid var(--verde);
+    border-bottom:0.2rem solid var(--verde);
+}
+
+nav a{
+    margin-top: 5.4rem;
+    margin-bottom: 5.4rem;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+
+main{
+    background: linear-gradient(to bottom,var(--gris),#331713,#441509,#cf2c1a);
+}
+
+.parrafo{
+    padding-bottom: 5rem;
+    width: 80rem;
+    margin: auto;
+    margin-top: 4rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+
+.parrafo3{
+    padding-bottom: 5rem;
+    width: 80rem;
+    margin: auto;
+    margin-top: 4rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+}
+
+.historia{
+    width: 100%;
+    height: 100rem;
+    background-image: url(../img/fondo\ matrix.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+#linksnav :hover{
+    color: #06e606;
+}
+#linksnav :focus{
+    background-color:#06e606 ;
+    color: var(--blanco);
+}
+
+.lista1{
+    justify-content: center;
+    text-align: start;
+    font-size: 25px;
+    border: solid 2px black;
+    color: black;
+}
+
+.lista2{
+    justify-content: center;
+    text-align: start;
+    font-size: 25px;
+    border: solid 2px black;
+    color: black;
+}
+
+.lista3{
+    justify-content: center;
+    text-align: start;
+    font-size: 25px;
+    border: solid 2px black;
+    color: black;
+}
+
+.caja{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    background-color: #ffffff;
+    border: 0.3rem solid rgb(0, 255, 76);
+}
+.footer1{
+    width: 100%;
+    height: 15rem;
+    background-color: var(--negro);
+    font-size: 2rem;
+    font-family: Orbitron, Open Sans, Noto Sans Japanese, Trade Gothic Bold Condensed No20, sans-serif;
+    padding-top:1.7rem ;
+    text-align: start;
+    color: rgb(144, 238, 255);
+}
+#parrafohistoria{
+    background-color: #3df966ab;
+    border: 0.3rem solid #00ff00;
+}
+
+.plista2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-shadow:
+        -0.3rem 0 var #00ff00,
+        0.3rem 0 var #00ff00,
+        0 -0.3rem var #00ff00,
+        0 0.3rem var #00ff00;
+}
+
+@media (max-width: 320px){
+
+    .textos{
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 4.4rem;
+        text-align: center;        
+        margin: auto;
+    }
+
+    .subtitulo{
+        text-shadow:
+            -0.3rem 0 var(--negro),
+            0.3rem 0 var(--negro),
+            0 -0.3rem var(--negro),
+            0 0.3rem var(--negro);
+        font-size: 3.2rem;
+        text-align: center;
+        margin: auto;
+        padding-bottom: 1rem;
+}
+
+
+    .textos2{
+    font-size: 3rem;
+    margin-left: auto;
+    padding-top: auto;
+    }
+    
+    .parrafo{
+        justify-content: space-around;
+        text-align: center;
+        padding-bottom: 5rem;
+        width: 27rem;
+    }
+
+    
+    .parrafo3{
+    justify-content: space-around;
+    text-align: center;
+    width: 27rem;
+    padding-bottom: 2rem;
+    margin: auto;
+    padding-top: 2rem;
+    text-shadow:
+        -0.3rem 0 var(--negro),
+        0.3rem 0 var(--negro),
+        0 -0.3rem var(--negro),
+        0 0.3rem var(--negro);
+    }
+    
+    header div{
+        width: 100%;
+        height: 21.2rem;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+    header div > h1{
+        position: absolute;
+        bottom: 0rem;
+        left: 2rem;
+        font-size: 20rem;
+    }
+    
+    nav{
+        justify-content: space-around;
+        background-color: black;
+        border-top: 0.2rem solid #05dc05;
+        border-bottom:0.3rem solid #05dc05;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    nav a{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        padding: 0rem;
+    }
+    
+    .acerca{
+        width: 100%;
+        height: 120rem;
+        background-size: cover;
+        background-position: center;
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .textos2{
+        font-size: 3rem;
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+
+    .block{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .historia{
+        width: 100%;
+        height: 160rem;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        background-attachment: fixed;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .caja{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: #ffffff;
+    border: 0.2rem solid rgb(0, 255, 76);
+    }
+
+    .plista2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    text-shadow:
+        -0.3rem 0 var #00ff00,
+        0.3rem 0 var #00ff00,
+        0 -0.3rem var #00ff00,
+        0 0.3rem var #00ff00;
+    }
+
+    
+}
